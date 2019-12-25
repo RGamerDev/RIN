@@ -30,22 +30,4 @@ public class ScoreAndHealth : MonoBehaviour
         FindObjectOfType<GameManager>().GameOver();
     }
 
-    //private IEnumerator PopHeart()
-    //{
-    //    Hearts[index].GetComponent<Animator>().SetBool("hasFailed", true);
-
-    //    yield return new WaitForSeconds(0.15f);
-
-    //    while (Hearts[index].GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).normalizedTime < 1 || Hearts[index].GetComponent<Animator>().IsInTransition(0))
-    //    {
-    //        yield return null;
-    //    }
-
-    //    Hearts[index].GetComponent<Animator>().SetBool("hasFailed", false);
-        
-    //    yield return new WaitForSeconds(0.15f);
-
-    //    Hearts[index].SetActive(false);
-        
-    //}
 }
